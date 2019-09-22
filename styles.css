@@ -1,0 +1,47 @@
+H1 {
+    color: blue;
+    text-align: center;
+    font: italic 1.2em "Fira Sans", serif;
+    font-size: 40px;
+}
+table {
+	margin:20px;
+	padding: 20px;
+	;
+}
+.menu {
+	color: blue;
+	line-height: 1;
+	width: 150;
+	height: 40;
+	vertical-align: top;
+	background-color: #C2D5DC;
+	border: thick double #32a1ce;
+	border-radius: 8px;
+	}
+th {
+	border: none;
+	border-collapse: collapse;
+}
+#info{
+	border-radius: 8px;
+	background: #DEE5E8;
+	font-size:20px;
+	padding: 20px;
+	vertical-align: top;
+}
+body {
+	background-size: cover;
+	background-image: url(bg.jpg);
+}
+img {
+	border: 15px solid white;
+	width: 300px;
+  	height: 200px;
+}
+@media only screen and (max-width: 600px) {
+  table {
+    margin: 5px;
+    padding: 5px;
+  }
+}

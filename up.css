@@ -1,0 +1,40 @@
+h3 {
+  font-size: 20px;
+  color: blue;
+}
+
+ol {
+  text-align: center;
+  color: blue;
+  font-size: 18px;
+  font-weight: bold;
+  background: #DEE5E8;
+  width: 35%;
+}
+
+.current, .menu {
+  color: blue;
+  line-height: 1;
+  width: 15%;
+  height: 20px;
+  vertical-align: top;
+  border: thick double #32a1ce;
+  border-radius: 8px;
+}
+
+.menu {
+  background-color: #C2D5DC;
+}
+
+.current {
+  background-color: yellow;
+}
+
+td p {
+  font-style: italic;
+}
+td a:hover {
+  color: green;
+}
+
+/*# sourceMappingURL=up.css.map */

@@ -9,16 +9,11 @@ table {
 	padding: 20px;
 	;
 }
-.menu {
-	color: blue;
-	line-height: 1;
-	width: 15%;
-	height: 8%;
-	vertical-align: top;
-	background-color: #C2D5DC;
-	border: thick double #32a1ce;
-	border-radius: 8px;
-	}
+.row>div{
+	border: 2px solid blue;
+	text-align: center;
+	border-collapse: collapse;
+}	
 th {
 	border: none;
 	border-collapse: collapse;
@@ -44,4 +39,11 @@ img {
     margin: 5px;
     padding: 5px;
   }
+}
+#bottom {
+	background: #DEE5E8;
+	bottom:0px;
+   width:100%;
+   margin-top: 100px;
+
 }

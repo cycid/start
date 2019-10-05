@@ -1,0 +1,42 @@
+$color: blue;
+
+h3 {
+    font-size: 20px;
+    color: $color;
+}
+
+ol {
+	text-align:center;
+    color: $color;
+    font-size:18px;
+    font-weight: bold;
+    background: #DEE5E8;
+    width: 35%;
+}
+%func {
+    color: $color;
+    line-height: 1;
+    width: 15%;
+    height: 20px;
+    vertical-align: top;
+    border: thick double #32a1ce;
+    border-radius: 8px;
+}
+
+.menu {
+    @extend %func;
+    background-color: #C2D5DC;
+}
+
+.current {
+    @extend %func;
+    background-color: yellow;
+}
+td { 
+	p { font-style:italic;
+
+	}
+	a:hover{
+	color:green
+	}
+}

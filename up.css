@@ -9,13 +9,14 @@ ol {
   font-size: 18px;
   font-weight: bold;
   background: #DEE5E8;
-  width: 35%;
+  width: 15%;
+  margin-left: 50px;
 }
 
 .current, .menu {
   color: blue;
   line-height: 1;
-  width: 15%;
+  width: 150px;
   height: 20px;
   vertical-align: top;
   border: thick double #32a1ce;
